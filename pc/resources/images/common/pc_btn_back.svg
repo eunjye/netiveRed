@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pc_btn_back</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pc_04detail_03" transform="translate(-80.000000, -60.000000)">
+            <g id="pc_btn_back" transform="translate(80.000000, 60.000000)">
+                <rect id="Rectangle" fill="#2F2F2F" opacity="0" x="0" y="0" width="52" height="52"></rect>
+                <polygon id="Rectangle-Copy-6" fill="#000000" transform="translate(23.906517, 34.000000) rotate(45.000000) translate(-23.906517, -34.000000) " points="10 31 37.8130332 31 37.8130332 37 10 37"></polygon>
+                <polygon id="Rectangle-Copy-6" fill="#000000" transform="translate(23.906517, 18.000000) rotate(-45.000000) translate(-23.906517, -18.000000) " points="10 15 37.8130332 15 37.8130332 21 10 21"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

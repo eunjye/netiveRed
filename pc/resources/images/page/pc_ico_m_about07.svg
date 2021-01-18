@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="152px" viewBox="0 0 255 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>pc_ico_m_about07</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="76" cy="76" r="76"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pc_01main_2-copy" transform="translate(-521.000000, -394.000000)">
+            <g id="pc_ico_m_about07" transform="translate(521.000000, 394.000000)">
+                <g id="Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Oval"></g>
+                    <g id="Group" mask="url(#mask-2)" stroke="#000000" stroke-width="3.2">
+                        <g transform="translate(0.000000, -1.000000)">
+                            <line x1="0" y1="151.862944" x2="149.685279" y2="151.862944" id="Path-Copy-19"></line>
+                            <line x1="0" y1="8.54314721" x2="149.685279" y2="8.54314721" id="Path"></line>
+                            <line x1="0" y1="16.0862944" x2="149.685279" y2="16.0862944" id="Path"></line>
+                            <line x1="0" y1="23.6294416" x2="149.685279" y2="23.6294416" id="Path"></line>
+                            <line x1="0" y1="31.1725888" x2="149.685279" y2="31.1725888" id="Path"></line>
+                            <line x1="0" y1="38.715736" x2="149.685279" y2="38.715736" id="Path"></line>
+                            <line x1="0" y1="46.2588832" x2="149.685279" y2="46.2588832" id="Path"></line>
+                            <line x1="0" y1="53.8020305" x2="149.685279" y2="53.8020305" id="Path"></line>
+                            <line x1="0" y1="61.3451777" x2="149.685279" y2="61.3451777" id="Path"></line>
+                            <line x1="0" y1="68.8883249" x2="149.685279" y2="68.8883249" id="Path"></line>
+                            <line x1="0" y1="76.4314721" x2="149.685279" y2="76.4314721" id="Path"></line>
+                            <line x1="0" y1="83.9746193" x2="149.685279" y2="83.9746193" id="Path"></line>
+                            <line x1="0" y1="91.5177665" x2="149.685279" y2="91.5177665" id="Path"></line>
+                            <line x1="0" y1="99.0609137" x2="149.685279" y2="99.0609137" id="Path"></line>
+                            <line x1="0" y1="106.604061" x2="149.685279" y2="106.604061" id="Path"></line>
+                            <line x1="0" y1="114.147208" x2="149.685279" y2="114.147208" id="Path"></line>
+                            <line x1="0" y1="121.690355" x2="149.685279" y2="121.690355" id="Path"></line>
+                            <line x1="0" y1="129.233503" x2="149.685279" y2="129.233503" id="Path-Copy"></line>
+                            <line x1="0" y1="136.77665" x2="149.685279" y2="136.77665" id="Path-Copy-17"></line>
+                            <line x1="0" y1="144.319797" x2="149.685279" y2="144.319797" id="Path-Copy-18"></line>
+                            <line x1="0" y1="1.54314721" x2="149.685279" y2="1.54314721" id="Path-Copy-20"></line>
+                        </g>
+                    </g>
+                </g>
+                <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="178.4" cy="76" r="76"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

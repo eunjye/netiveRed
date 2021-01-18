@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네티브레드</title>
+
+    <link rel="canonical" href="https://www.netivered.com">
+
+    <meta name="title" content="네티브레드">
+    <meta name="writer" content="네티브레드">
+    <meta name="description" content="Make UX AS GOOD AS POSSIBLE">
+    <meta name="keywords" content="">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="네티브레드">
+    <meta property="og:url" content="https://www.netivered.com/">
+    <meta property="og:image" content=""> <!-- 800x400 즉 2:1 비율-->
+    <meta property="og:description" content="Make UX AS GOOD AS POSSIBLE">
+
+    <!-- resources -->
+    <link rel="stylesheet" href="/mobile/resources/css/ui.base.css">
+    <script src="/mobile/resources/js/lib/jquery-3.4.1.min.js"></script>
+    <script src="/mobile/resources/js/lib/jquery-ui.min.js"></script>
+    <script src="/mobile/resources/js/ui.common.js"></script>
+</head>
+<body>
+
+    <svg id="XignifyLogo" width="88px" height="114px" viewBox="0 0 88 114">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="m_02about-" transform="translate(-482.000000, -358.000000)">
+                <g id="m_ico_b_main04" transform="translate(474.000000, 354.000000)">
+                    <path d="M52.2182812,117.255391 C61.1672396,117.255391 68.9213086,115.679154 75.4804883,112.52668 C82.039668,109.374206 87.073457,104.785322 90.5818555,98.7600293 C94.0902539,92.7347363 95.8444531,85.6035352 95.8444531,77.3664258 L95.8444531,77.3664258 L95.8444531,4.6815625 L69.0738477,4.6815625 L69.0738477,77.2138867 C69.0738477,84.0781445 67.6501497,89.0356641 64.8027539,92.0864453 C61.9553581,95.1372266 57.7605339,96.6626172 52.2182812,96.6626172 C41.2354687,96.6626172 35.5915234,90.5864779 35.2864453,78.4341992 L35.2864453,78.4341992 L35.2864453,4.6815625 L8.36330078,4.6815625 L8.36330078,77.9003125 C8.51583984,90.1034375 12.4818555,99.7133984 20.2613477,106.730195 C28.0408398,113.746992 38.693151,117.255391 52.2182812,117.255391 Z" id="U" fill="#000000" fill-rule="nonzero">
+                    </path>
+                </g>
+            </g>
+        </g>
+    </svg>
+
+    <svg width="77px" height="112px" viewBox="0 0 77 112">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="m_02about-" transform="translate(-295.000000, -584.000000)">
+                <g id="m_ico_b_main02" transform="translate(284.000000, 580.000000)">
+                    <polygon id="E" fill="#ED4947" fill-rule="nonzero" points="87.7279883 115.73 87.7279883 95.1372266 38.0002539 95.1372266 38.0002539 68.6716992 80.1010352 68.6716992 80.1010352 48.7653516 38.0002539 48.7653516 38.0002539 25.3506055 87.8805273 25.3506055 87.8805273 4.6815625 11.2296484 4.6815625 11.2296484 115.73"></polygon>
+                </g>
+            </g>
+        </g>
+    </svg>
+
+
+
+
+
+
+    <div style="position: absolute; font-size: 12px;">
+        <h1>작업 요건 등</h1>
+        <ol>
+            <li>(PC) 해상도 최소 기준 1280, 해상도에 따라 이미지, 텍스트 크기 달라져야 함.</li>
+            <li>화면 전환 시, Progress bar가 반드시 노출된 후 다음 페이지가 나와야 함.</li>
+            <li>페이지 스크롤의 경우 상황에 따라 컨텐츠가 fadeIn 되어야 함.</li>
+            <li>about, 페이지 스크롤의 경우 상황에 따라 큰 제목 부분 fixed 되고 내용만 스크롤됨<br>
+                내용 중 작은 제목, 내용이 서로 다르게 움직여야 함
+            </li>
+        </ol>
+
+        <hr>
+
+        <dl>
+            <dt>인터렉션</dt>
+            <dd>햄버거 메뉴</dd>
+            <dd>메인 첫영역(풀화면) 우측에 순차적으로 변경되는 알파벳, 오프젝트</dd>
+            <dd>막대(가로)</dd>
+            <dd>오브젝트(바코드 닮은)</dd>
+            <dd>원 두개</dd>
+            <dd>접힌 모양</dd>
+            <dd>project list, 이미지 마스크 효과, 마우스 오버시 이미지 확대</dd>
+            <dd>project detail, 상단 비쥬얼 이미지와 다음 컨텐츠 영역의 페럴렉스</dd>
+            <dd>contact, 건물 이미지 마스크 효과(pc)</dd>
+            <dd>loading bar</dd>
+        </dl>
+
+        <hr>
+
+        <dl>
+            <dt>링크</dt>
+            <dd><a href="/mobile/main/" target="_blank">Main</a></dd>
+            <dd><a href="/mobile/about/" target="_blank">About</a></dd>
+            <dd><a href="/mobile/project/" target="_blank">Works</a></dd>
+            <dd><a href="/mobile/contact/" target="_blank">Contact</a></dd>
+        </dl>
+    </div>
+
+    <div id="mainPage" style="display: none;">
+
+        <div class="navigation">
+            <button type="button" class="ui">메뉴열기</button>
+        </div>
+
+        <div class="mainFullArea">
+            <div class="" style="font-size: 0.75rem">NETIVE RED</div>
+            <div class="" style="font-size: 0.9375rem">마스크 효과 있는 오프젝트 영역</div>
+        </div>
+
+        <div class="mainArea" style="margin-top: 200px;">
+            <div class="contactNumber">
+                <img src="/mobile/resources/images/page/m_ico_contact_01.svg" alt="" style="max-width: 100%;">
+                <div class="dash"></div>
+                <div class="dash"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="scrollEffect" style="width: 200px; height: 140px; margin-top: 50px; background-color: darkolivegreen"></div>
+        <div class="scrollEffect" style="width: 200px; height: 100px; margin-top: 50px; background-color: blue"></div>
+        <div class="scrollEffect" style="width: 300px; height: 300px; margin-top: 50px; background-color: #f1f1f1">
+            <div class="figure1">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="scrollEffect" style="width: 100%; margin-top: 50px; padding: 40px;">
+            <div class="figure2">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="scrollEffect" style="width: 200px; margin-top: 50px; padding: 40px;">
+            <div class="figure3">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div style="margin-top: 50px;">
+            <div class="imgEffect">
+                <div><img src="/mobile/resources/images/page/m_img_list_01.jpg" alt=""></div>
+            </div>
+        </div>
+            
+            <div style="padding: 200px 50px;">
+
+                <div class="figure3_">
+                    <svg id="figure3" width="256px" height="203px" viewBox="0 0 256 203">
+                        <g id="figure3_1" style="transform: translateX(1px) translateY(64px);"><rect width="156px" height="138px" fill="none" stroke-width="2" stroke="#000" /></g>
+                        <g id="figure3_2" style="transform: translateX(105px) translateY(63px);">
+                            <rect width="51px" height="138px" fill="#d3d3d3" />
+                        </g>
+                        <g id="figure3_3" style="transform: translateX(106px) translateY(64px);"><rect width="156px" height="138px" fill="#000" stroke-width="2" stroke="#000" /></g>
+                    </svg>
+                </div>
+
+            </div>
+
+        <div class="scrollEffect" style="width: 200px; height: 250px; margin-top: 50px; background-color: orange"></div>
+        <div class="scrollEffect" style="width: 100%; height: 60px; margin-top: 50px; background-color: darkred"></div>
+        <div class="scrollEffect" style="width: 200px; height: 140px; margin-top: 50px; background-color: darkolivegreen"></div>
+        <div class="scrollEffect" style="width: 300px; height: 100px; margin-top: 50px; background-color: purple"></div>
+        <div class="scrollEffect" style="width: 200px; height: 100px; margin-top: 50px; background-color: blue"></div>
+        <div class="scrollEffect" style="width: 100px; height: 300px; margin-top: 50px; background-color: gray"></div>
+        <div class="scrollEffect" style="width: 100%; height: 150px; margin-top: 50px; background-color: green"></div>
+        <div class="scrollEffect" style="width: 200px; height: 100px; margin-top: 50px; background-color: yellow"></div>
+        <div class="scrollEffect" style="width: 250px; height: 200px; margin-top: 50px; background-color: darkblue"></div>
+        <div class="scrollEffect" style="width: 80px; height: 150px; margin-top: 50px; background-color: yellowgreen"></div>
+        <div class="scrollEffect" style="width: 200px; height: 250px; margin-top: 50px; background-color: orange"></div>
+        <div class="scrollEffect" style="width: 100%; height: 60px; margin-top: 50px; background-color: darkred"></div>
+        <div class="scrollEffect" style="width: 200px; height: 140px; margin-top: 50px; background-color: darkolivegreen"></div>
+        <div class="scrollEffect" style="width: 300px; height: 100px; margin-top: 50px; background-color: purple"></div>
+
+    </div>
+
+<style>
+    /* figure */
+    .figure1 { position: relative; width: 70%; height: 100px; overflow: hidden; margin: 0 auto; }
+    .figure1 > div { float: left; height: 100%; background-color: gray; }
+    .figure1 > div:before { content: ''; display: block; height: 70%; background-color: #000; }
+
+    .figure1 > div:nth-child(1) { width: 1%; margin-right: 1%; transition: all 0.3s ease-out; }
+    .figure1 > div:nth-child(2) { width: 1%; margin-right: 1%; transition: all 0.4s ease-out; }
+    .figure1 > div:nth-child(3) { width: 1%; margin-right: 1%; transition: all 0.5s ease-out; }
+    .figure1 > div:nth-child(4) { width: 1%; margin-right: 1%; transition: all 0.6s ease-out; }
+    .figure1 > div:nth-child(5) { width: 1%; margin-right: 1%; transition: all 0.7s ease-out; }
+    .figure1 > div:nth-child(6) { width: 1%; margin-right: 1%; transition: all 0.8s cubic-bezier(0.79, 0.29, 0, 0.8); }
+
+    .figure1.active > div:nth-child(1) { width: 23%; margin-right: 3%; }
+    .figure1.active > div:nth-child(2) { width: 15%; margin-right: 4%; }
+    .figure1.active > div:nth-child(3) { width: 12%; margin-right: 5%; }
+    .figure1.active > div:nth-child(4) { width: 8%; margin-right: 6%; }
+    .figure1.active > div:nth-child(5) { width: 5%; margin-right: 7%; }
+    .figure1.active > div:nth-child(6) { width: 3%; margin-right: 8%; }
+    .figure1.active > div:nth-child(7) { width: 1%; }
+
+
+
+    /* navigation */
+    .navigation { position: absolute; right: 30px; top: 18px; }
+    .navigation button { overflow: hidden; width: 33px; height: 33px; font-size: 0; line-height: 0; }
+    .navigation button:before {
+        content: ''; display: block; width: 0; height: 4px; margin-bottom: 2px; background-color: #000;
+        transition: all 0.3s linear;
+        animation-name: cssAnimation-naviLine1;
+        animation-duration: 0.4s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+    }
+    .navigation button:after {
+        content: ''; display: block; width: 0; height: 4px; margin-top: 1px; background-color: #000;
+        animation-name: cssAnimation-naviLine2;
+        animation-duration: 0.4s;
+        animation-timing-function: linear;
+        animation-delay: 0.2s;
+        animation-fill-mode: both;
+    }
+    .navigation button:hover:before { animation-name: cssAnimation-naviLine2; animation-direction: alternate; animation-iteration-count:infinite; animation-duration: 0.4s; }
+    .navigation button:hover:after { animation-name: cssAnimation-naviLine1; animation-direction: alternate; animation-iteration-count:infinite; animation-duration: 0.3s; }
+    @keyframes cssAnimation-naviLine1 {
+        0% { width: 0; }
+        100% { width: 100%; }
+    }
+    @keyframes cssAnimation-naviLine2 {
+        0% { width: 0; }
+        100% { width: 60%; }
+    }
+</style>
+
+</body>
+</html>

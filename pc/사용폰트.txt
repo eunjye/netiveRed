@@ -1,0 +1,10 @@
+사용 폰트
+
+영문 : Roboto
+한글 : NotoSansCJKkr
+    
+    font-family: Roboto-Medium;
+    font-family: Roboto-Bold;
+    font-family: Roboto-Black;
+    font-family: NotoSansCJKkr-Medium;
+    font-family: NotoSansCJKkr-Bold;

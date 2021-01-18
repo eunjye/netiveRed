@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="290px" height="200px" viewBox="0 0 290 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>m_ico_03</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Publish_M" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m_01main_4" transform="translate(-430.000000, -540.000000)">
+            <g id="m_ico_03" transform="translate(430.000000, 540.000000)">
+                <polygon id="Rectangle-Copy-9" fill="#AFAFAF" opacity="0" points="7.95224326e-12 0 290 0 290 200 7.95224326e-12 200"></polygon>
+                <rect id="m_ico_m_about08_1" stroke="#000000" stroke-width="4" x="34" y="73" width="124" height="110"></rect>
+                <polygon id="m_ico_m_about08_2" fill="#BCBCBC" fill-rule="nonzero" points="156 129 156 181 114 129"></polygon>
+                <rect id="m_ico_m_about08_3" fill="#000000" fill-rule="nonzero" x="114" y="15" width="128" height="114"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

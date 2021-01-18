@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="51px" viewBox="0 0 31 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>m_btn_back</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m_04detail" transform="translate(-66.000000, -45.000000)">
+            <g id="m_btn_back" transform="translate(60.000000, 38.000000)">
+                <rect id="Rectangle" fill="#2F2F2F" opacity="0" x="2.20268248e-13" y="6.75015599e-13" width="65.52" height="65.52"></rect>
+                <polygon id="Rectangle-Copy-6" fill="#000000" transform="translate(21.383146, 42.456000) rotate(45.000000) translate(-21.383146, -42.456000) " points="4 39 38.7662915 39 38.7662915 45.912 4 45.912"></polygon>
+                <polygon id="Rectangle-Copy-6" fill="#000000" transform="translate(21.211573, 22.456000) rotate(-45.000000) translate(-21.211573, -22.456000) " points="3.82842712 19 38.5947186 19 38.5947186 25.912 3.82842712 25.912"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

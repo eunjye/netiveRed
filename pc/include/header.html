@@ -1,0 +1,92 @@
+<div class="header_wrap">
+  <script>
+    var url = document.location.href,
+        urlStr = url.indexOf('/projects/'),
+        urlStr2 = url.indexOf('/projects/index');
+    (function() {
+      if (urlStr !== -1 && urlStr2 === -1) {
+        $('#headerLinks').append('<a href="/pc/projects/index.html?preload=0" class="prev_btn"><img src="/pc/resources/images/common/pc_btn_back.svg" alt="previous page" /></a>');
+      } else {
+        $('#headerLinks').append('<div><a href="/pc/main/index.html" class="logo"><img src="/pc/resources/images/common/pc_logo_01.svg" alt="netivered" /></a></div>');
+      }
+      var urlFlag = url.indexOf('pc/main');
+		  if(urlFlag > -1) {
+        $('#headerLinks, .nav_btn').addClass('imgEffect');
+      }
+    })();
+  </script>
+
+  <h1 id="headerLinks"></h1>
+  <nav id="nav" class="po_area">
+    <div class="nav_btn">
+      <div>
+        <button type="button">메뉴열기</button>
+      </div>
+    </div>
+    <div id="nav_menu">
+      <ul>
+        <li>
+          <a href="/pc/companyinfo/index.html" class="dashed_wrap">
+            <span><img src="/pc/resources/images/common/pc_ico_b_navi01.svg" alt="about" /><div class="dash active"></div></span>
+          </a>
+        </li>
+        <li>
+          <a href="/pc/projects/index.html" class="dashed_wrap">
+            <span><img src="/pc/resources/images/common/pc_ico_b_navi02.svg" alt="works" /><div class="dash active"></div></span>
+          </a>
+        </li>
+        <li>
+          <a href="/pc/contact/index.html">
+            <span><img src="/pc/resources/images/common/pc_ico_b_navi03.svg" alt="contact" /></span>
+          </a>
+        </li>
+      </ul>
+      <div class="bottom_logo">
+        <div class="dash"></div>
+        <img src="/pc/resources/images/common/pc_ico_sline_main.svg" alt="WE ARE UX CONSULTANCY" />
+      </div>
+    </div>
+  </nav>
+</div>
+<script>
+  $(document).ready(function() {
+    $('.nav_btn button').on('click', function() {
+      var t = $(this);
+      if(t.hasClass('active')) {
+        $('#nav_menu').fadeOut(600);
+        t.removeClass('active');
+
+        if (urlStr !== -1 && urlStr2 === -1) {
+          $('#headerLinks').html('').append('<a href="/pc/projects/index.html?preload=0" class="prev_btn"><img src="/pc/resources/images/common/pc_btn_back.svg" alt="previous page" /></a>');
+        }
+
+      } else {
+        t.addClass('active visited');
+        $('#nav_menu').fadeIn(600);
+        $('#nav_menu .bottom_logo .dash').addClass('active');
+        
+        if (urlStr !== -1 && urlStr2 === -1) {
+          $('#headerLinks').html('').append('<div><a href="/pc/main/index.html" class="logo"><img src="/pc/resources/images/common/pc_logo_01.svg" alt="netivered" /></a></div>');
+        }
+      }
+    });
+
+    //hover event
+    $('#nav_menu a').on('mouseout focusout', function() {
+      var img = $(this).find('img').eq(0),
+          imgSrc = img.attr('src');
+      if(imgSrc.indexOf('_on') !== -1 && !$(this).is(":focus")) {
+        img.attr('src', imgSrc.replace('_on.', '.'));
+      }
+    })
+
+    $('#nav_menu a').on('mouseover focus', function() {
+      var img = $(this).find('img').eq(0),
+          imgSrc = img.attr('src');
+      if(imgSrc.indexOf('_on') === -1) {
+        img.attr('src', imgSrc.replace('.', '_on.'));
+      }
+    })
+
+  });
+</script>

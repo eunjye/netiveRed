@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네티브레드</title>
+
+    <link rel="canonical" href="https://www.netivered.com">
+
+    <meta name="title" content="네티브레드">
+    <meta name="writer" content="네티브레드">
+    <meta name="description" content="Make UX AS GOOD AS POSSIBLE">
+    <meta name="keywords" content="">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="네티브레드">
+    <meta property="og:url" content="https://www.netivered.com/">
+    <meta property="og:image" content=""> <!-- 800x400 즉 2:1 비율-->
+    <meta property="og:description" content="Make UX AS GOOD AS POSSIBLE">
+
+    <!-- resources -->
+    <link rel="stylesheet" href="/mobile/resources/css/ui.base.css">
+    <script src="/mobile/resources/js/lib/jquery-3.4.1.min.js"></script>
+    <script src="/mobile/resources/js/lib/jquery-ui.min.js"></script>
+    <script src="/mobile/resources/js/ui.common.js"></script>
+</head>
+<body class="loader">
+<script type="text/javascript">
+    // loader
+    $('.loader').prepend('<div id="preloader"><span>Loading...</span></div>');
+    $(document).ready(function() {
+        setTimeout(function() {
+            $("#preloader").fadeOut();
+        }, 2500);
+    });
+</script>
+</body>
+</html>

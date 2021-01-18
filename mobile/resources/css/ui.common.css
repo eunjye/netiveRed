@@ -1,0 +1,135 @@
+@charset 'utf-8';
+
+/* loading */
+#preloader {position: fixed;left: 0;bottom: 0;z-index: 9999;display: flex;align-items: center;justify-content: center;width: 100%;height: 100%;background-color: #ff3d32;}
+#preloader:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #fff;
+  content: '';
+  animation-name: cssAnimation-leftRight;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(1, 0.51, 0.62, 0.96);
+  animation-fill-mode: both;
+}
+#preloader span {position: relative;overflow: hidden;font-size: 0; line-height: 0;}
+#preloader span:before {
+  display: inline-block;
+  width: 80px;
+  height: 8px;
+  background-color: #fff;
+  content: '';
+}
+#preloader span:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  content: '';
+  animation-name: cssAnimation-preloader;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+/**** layout ***/
+body {min-width: 320px;background-color: #F7F7F7;}
+main{display: flex;min-height: 100vh;flex-direction: column;}
+main .main_content{flex:1;}
+.mainArea{padding-top: 30.55vw;}
+.container .container_inner {width: 100%;height: 100%;padding: 0 1.875rem; box-sizing: border-box;}
+.container .mainFullArea {display: flex;align-items: center;flex-wrap: wrap;width: 100%;height: 100vh;}
+
+/* font*/
+.heading h2 {font-family: 'Roboto';font-size: 9.4vw;font-weight: 700;color: #000;line-height: 11vw;text-transform: uppercase;}
+.heading h2 > span {display: block;word-break: break-all;}
+.sub_heading {font-family: 'Roboto';font-size: 6.11vw;font-weight: 700;color: #000;line-height: 1;text-transform: uppercase;}
+.container .desc {font-family: 'Noto Sans KR';font-weight: 500;font-size: 4.17vw;color: #000;margin-top: 1.25rem;}
+.container .desc > span {display: block;word-break: break-all;}
+
+/*class*/
+.bg_red{background-color: #ff3d32!important;}
+.bg_gray{background-color: #f7f7f7!important;}
+.hide {position: absolute;z-index: -10;display: inline-block;overflow: hidden !important;width: 0 !important;height: 0 !important;font-size: medium;line-height: normal;word-break: break-all;}
+.po_area {position: relative;}
+.bottom_logo {position: absolute;left: 8.3vw;bottom: 8.3vw;width: 29.7vw;height: auto;line-height: 0;}
+.bottom_logo > img {width: 100%;height: auto; vertical-align: top;}
+
+/*** header ***/
+header {position: absolute;top: 0;z-index: 999;width: 100%;height: 1px;}
+header .header_wrap {position: fixed;top: 0;right: 0;left: 0;z-index: 100;width: 100%;}
+header h1 {position: absolute;left: 1.875rem;z-index: 101;display: inline-block;width: 30.4vw; margin-top: 4.36vw; font-size: 0;}
+header .logo {display: inline-block;width: 100%; padding: 3vw 0;}
+header .logo > img {width: 100%;height: auto;}
+header .prev_btn {
+  position: relative;display: inline-block;width: 9.16vw;height: 9.16vw;
+  background: url(/mobile/resources/images/common/m_btn_back.svg) 0.83vw center no-repeat; background-size: auto 6.8vw;
+}
+header .prev_btn > img {width: auto; height: 100%;}
+
+/* navigation */
+nav .nav_btn { position: absolute;right: 8.3vw; top: 5.4vw; z-index: 101;}
+.nav_btn button {width: 8.47vw; height: 8.47vw; overflow: hidden; font-size: 0; line-height: 0; vertical-align: top; }
+.nav_btn button:before {
+  content: ''; display: block; width: 9vw; height: 1.1vw; margin-bottom: 1vw; background-color: #000;
+  animation-name: cssAnimation-naviLine1; animation-duration: 0.3s; animation-timing-function: ease-out; animation-fill-mode: both;
+}
+.nav_btn button:after {
+  content: ''; display: block; width: 5.5vw; height: 1.1vw; background-color: #000;
+  animation-name: cssAnimation-naviLine2; animation-duration: 0.3s; animation-timing-function: ease-out; animation-fill-mode: both;
+}
+@keyframes cssAnimation-naviLine1 {
+    0% { width: 0; opacity: 0; }
+    100% { width: 9vw; opacity: 1; }
+}
+@keyframes cssAnimation-naviLine2 {
+    0% { width: 0; opacity: 0; }
+    100% { width: 5.5vw; opacity: 1; }
+}
+
+.nav_btn button.active.visited:before { animation-name: cssAnimation-naviActiveLine1; }
+.nav_btn button.active.visited:after { animation-name: cssAnimation-naviActiveLine2; }
+@keyframes cssAnimation-naviActiveLine1 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-45deg) translate(-0.7vw, 0.7vw); }
+}
+@keyframes cssAnimation-naviActiveLine2 {
+    0% { transform: rotate(0deg); }
+    100% { width: 9vw; transform: rotate(45deg) translate(-0.7vw, -0.7vw); }
+}
+
+.nav_btn button.visited:before { animation-name: cssAnimation-naviVisitedLine1; }
+.nav_btn button.visited:after { animation-name: cssAnimation-naviVisitedLine2; }
+@keyframes cssAnimation-naviVisitedLine1 {
+    0% { transform: rotate(-45deg) translate(-0.7vw, 0.7vw); }
+    100% { transform: rotate(0deg); }
+}
+@keyframes cssAnimation-naviVisitedLine2 {
+    0% { width: 9vw; transform: rotate(45deg) translate(-0.7vw, -0.7vw); }
+    100% { transform: rotate(0deg); }
+}
+
+nav #nav_menu {position: fixed;top: 0;left: 0;right: 0;z-index: 100;display: none;overflow-y: hidden;width: 100%;height: 100%;color: #000;text-decoration: none;text-transform: uppercase; box-sizing: border-box;text-align: right;background-color: #fff;}
+nav #nav_menu ul { position: absolute; top: 50%; right: 2rem; transform: translateY(-50%); }
+nav #nav_menu li a {font-family: 'Roboto';font-weight: 700;font-size: 12.5vw;text-decoration: none;list-style: none;color: #000;transition: all 150ms ease;letter-spacing: 2.5px;}
+#nav_menu .dash_1 span:last-child {padding-left: 17vw;}
+#nav_menu .dash_2 span:last-child {padding-left: 15vw;}
+
+/*** section ***/
+section {min-height: 100vh;}
+.img_txt {display: flex;justify-content: center;width: 100%;height: auto;}
+.img_txt img {width: 100%;}
+.right_img {display: flex;justify-content: flex-end;}
+.right_img img {width: auto;}
+.img_animation img {height: 6.75rem;}
+.img_txt.bottom_img {padding: 0;}
+
+/*** footer ***/
+footer {height: auto;padding: 11.11vw 1.875rem;}
+footer > address {font-weight: 500;font-size: 3.33vw;color: #000;line-height: 1;}

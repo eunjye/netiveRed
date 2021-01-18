@@ -1,0 +1,9 @@
+
+/mobile
+http://m.netivered.com/mobile/main/index.html
+
+/pc
+http://netiveuidev.cafe24.com/pc/main/index.html
+
+*html문서 라이브서버 이용해서 프론트 확인
+http://127.0.0.1:3000/ (로컬이 켜져있을 시 확인 가능)

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="290px" height="200px" viewBox="0 0 290 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>m_ico_01</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Publish_M" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m_01main_2" transform="translate(-430.000000, -540.000000)">
+            <g id="m_ico_01" transform="translate(430.000000, 540.000000)">
+                <polygon id="Rectangle-Copy-9" fill="#AFAFAF" opacity="0" points="7.95224326e-12 0 290 0 290 200 7.95224326e-12 200"></polygon>
+                <g id="m_ico_m_about06_1" transform="translate(24.000000, 37.000000)" fill="#000000">
+                    <rect id="Rectangle" x="0" y="0" width="56" height="102"></rect>
+                    <rect id="Rectangle-Copy-10" x="60" y="0" width="28" height="102"></rect>
+                    <rect id="Rectangle-Copy-11" x="96" y="0" width="20" height="102"></rect>
+                    <rect id="Rectangle-Copy-12" x="128" y="0" width="16" height="102"></rect>
+                    <rect id="Rectangle-Copy-13" x="160" y="0" width="12" height="102"></rect>
+                    <rect id="Rectangle-Copy-14" x="192" y="0" width="8" height="102"></rect>
+                    <rect id="Rectangle-Copy-15" x="224" y="0" width="4" height="102"></rect>
+                </g>
+                <g id="m_ico_m_about06_2" transform="translate(24.000000, 139.000000)" fill="#BCBCBC">
+                    <rect id="Rectangle" x="0" y="0" width="56" height="24"></rect>
+                    <rect id="Rectangle-Copy-10" x="60" y="0" width="28" height="24"></rect>
+                    <rect id="Rectangle-Copy-11" x="96" y="0" width="20" height="24"></rect>
+                    <rect id="Rectangle-Copy-12" x="128" y="0" width="16" height="24"></rect>
+                    <rect id="Rectangle-Copy-13" x="160" y="0" width="12" height="24"></rect>
+                    <rect id="Rectangle-Copy-14" x="192" y="0" width="8" height="24"></rect>
+                    <rect id="Rectangle-Copy-15" x="224" y="0" width="4" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네티브레드</title>
+
+    <link rel="canonical" href="https://www.netivered.com">
+
+    <meta name="title" content="네티브레드">
+    <meta name="writer" content="네티브레드">
+    <meta name="description" content="Make UX AS GOOD AS POSSIBLE">
+    <meta name="keywords" content="">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="네티브레드">
+    <meta property="og:url" content="https://www.netivered.com/">
+    <meta property="og:image" content=""> <!-- 800x400 즉 2:1 비율-->
+    <meta property="og:description" content="Make UX AS GOOD AS POSSIBLE">
+
+    <!-- resources -->
+    <link rel="stylesheet" href="/pc/resources/css/ui.base.css">
+    <script src="/pc/resources/js/lib/jquery-3.4.1.min.js"></script>
+    <script src="/pc/resources/js/lib/jquery-ui.min.js"></script>
+    <!-- <script src="/pc/resources/js/ui.common.js"></script> -->
+</head>
+<body>
+
+    <div style="width: 1000px; height: 1000px; margin: 0 auto;">
+        <p>&nbsp;</p>
+
+        <div class="figure5">
+            <svg id="figure5" width="188px" height="188px" viewBox="0 0 188 188">
+                <defs>
+                    <mask id="mask">
+                        <circle fill="#ffffff" cx="94" cy="94" r="94" />
+                    </mask>
+                </defs>
+                <g transform="translate(1, 1)" mask="url(#mask)">
+                    <path class="path" fill="#000" d="M155.295671,23.0402343 C156.297259,23.9145336 157.284676,24.8137163 158.257115,25.7377826 L25.7368316,158.256114 C24.8130994,157.283998 23.9142336,156.296915 23.0402343,155.295671 Z"></path>
+                    <path class="path" fill="#000" d="M149.011297,18.0114778 C150.092857,18.8032583 151.16127,19.6211444 152.215671,20.4651364 L20.4651364,152.215671 C19.6211444,151.16127 18.8032583,150.092857 18.0114778,149.011297 Z"></path>
+                    <path class="path" fill="#000" d="M142.224796,13.4852996 C143.389728,14.1905476 144.542604,14.9234584 145.682481,15.6840322 L15.6840322,145.682481 C14.9234584,144.542604 14.1905476,143.389728 13.4852996,142.224796 Z"></path>
+                    <path class="path" fill="#000" d="M134.905675,9.4914321 C136.159471,10.1042848 137.402415,10.7468167 138.633455,11.419028 L11.419028,138.633455 C10.7466379,137.402087 10.1039429,136.15881 9.49094297,134.904674 Z"></path>
+                    <path class="path" fill="#000" d="M127.008784,6.07447152 C128.359906,6.58633641 129.701561,7.13055109 131.032556,7.7071158 L7.7071158,131.032556 C7.13055109,129.701561 6.58633641,128.359906 6.07447152,127.008784 Z"></path>
+                    <path class="path" fill="#000" d="M118.467217,3.3007254 C119.927276,3.69839516 121.379581,4.13199871 122.822732,4.60153631 L4.60153631,122.822732 C4.13199871,121.379581 3.69839516,119.927276 3.3007254,118.467217 Z"></path>
+                    <path class="path" fill="#000" d="M109.182654,1.27137785 C110.770614,1.5350368 112.353076,1.83970439 113.928335,2.18538094 L2.18538094,113.928335 C1.83970439,112.353076 1.5350368,110.770614 1.27137785,109.182654 Z"></path>
+                    <path class="path" fill="#000" d="M98.9950162,0.145737735 C100.738349,0.242781071 102.479472,0.388288707 104.216191,0.582261062 L0.582261062,104.216191 C0.388288707,102.479472 0.242781071,100.738349 0.145737735,98.9950162 Z"></path>
+                    <path class="path" fill="#000" d="M93.4843122,0.00038662386 L0.000386623859,93.4843122 C0.0059808762,91.5306298 0.0722846278,89.577068 0.199297291,87.6266992 L87.6266992,0.199297291 C89.577068,0.0722846278 91.5306298,0.0059808762 93.4843122,0.00038662386 Z"></path>
+                    <path class="path" fill="#000" d="M81.3504282,0.819544355 L0.819544355,81.3504282 C1.12274582,79.0667186 1.5100768,76.792012 1.98153635,74.5313208 L74.5313208,1.98153635 C76.792012,1.5100768 79.0667186,1.12274582 81.3504282,0.819544355 Z"></path>
+                    <path class="path" fill="#000" d="M66.9655436,3.89103568 L3.89103568,66.9655436 C4.76718153,64.0176665 5.79128671,61.1043516 6.963349,58.23729 L58.23729,6.963349 C61.1043516,5.79128671 64.0176665,4.76718153 66.9655436,3.89103568 Z"></path>
+                    <path class="path" fill="#000" d="M47.1766943,12.3641771 L12.3641771,47.1766943 C16.4059522,40.124744 21.4386248,33.485688 27.4621564,27.4621564 C33.485688,21.4386248 40.124744,16.4059522 47.1766943,12.3641771 Z"></path>
+                </g>
+                <g fill="#000000" transform="translate(26.5, 26.5)">
+                    <path d="M0,132.563181 C36.5923183,169.155499 95.9315321,169.144155 132.537844,132.537844 C169.144155,95.9315321 169.155499,36.5923183 132.563181,0 L0,132.563181 Z"></path>
+                </g>
+            </svg>
+        </div>
+        <style>
+            .figure5.active #figure5 .path {
+                animation-name: cssAnimation-figure5;
+                animation-duration: 0.5s;
+                animation-timing-function: ease-out;
+                animation-fill-mode: both;
+            }
+            .path:nth-child(1) { animation-delay: 0s; }
+            .path:nth-child(2) { animation-delay: 0.1s; }
+            .path:nth-child(3) { animation-delay: 0.2s; }
+            .path:nth-child(4) { animation-delay: 0.3s; }
+            .path:nth-child(5) { animation-delay: 0.4s; }
+            .path:nth-child(6) { animation-delay: 0.5s; }
+            .path:nth-child(7) { animation-delay: 0.6s; }
+            .path:nth-child(8) { animation-delay: 0.7s; }
+            .path:nth-child(9) { animation-delay: 0.8s; }
+            .path:nth-child(10) { animation-delay: 0.9s; }
+            .path:nth-child(11) { animation-delay: 1.0s; }
+            .path:nth-child(12) { animation-delay: 1.1s; }
+
+            @keyframes cssAnimation-figure5 {
+                0% {
+                    transform: translateX(-190px) translateY(190px)
+                }
+                100% {
+                    transform: translateX(0) translateY(0)
+                }
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+                $('.figure5').addActive();
+            });
+        </script>
+
+
+
+    </div>
+    <div class="ui-fixed-wrap myFixed1" style="width: 1000px; margin: 0 auto;">
+        <div class="ui-fixed-target" style="position: absolute; height: 100px; background-color: red;">고정되는 엘리먼트</div>
+        <div style="padding-left: 400px; background-color: yellow">스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트</div>
+    </div>
+    <div class="ui-fixed-wrap myFixed2" style="width: 1000px; margin: 0 auto;">
+        <div class="ui-fixed-target" style="position: absolute; padding: 30px; background-color: skyblue;">고정되는 엘리먼트<br>고정되는 엘리먼트<br>고정되는 엘리먼트<br>고정되는 엘리먼트</div>
+        <div style="padding-left: 400px; background-color: green">스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트<br>스크롤되는 엘리먼트</div>
+    </div>
+    <div style="width: 1000px; height: 1000px; margin: 0 auto;">내용...</div>
+
+<script>
+// 객체의 offset().top 구하기
+$.fn.positionInfo = function() {
+    return $(this).offset().top;
+}
+// 객체의 위치 구해서 active 클래스 넣어주기
+$.fn.addActive = function() {
+    return this.each(function() {
+        var $win = $(window),
+            $wT = $win.scrollTop(),
+            $wH = $win.height(),
+            $t = $(this),
+            $class = ['.dash', 'active'];
+
+        if($wH+$wT > $t.positionInfo()) {
+            $t.children($class[0]).length
+                ? $t.children($class[0]).addClass($class[1])
+                : $t.addClass($class[1]);
+
+            if($t.hasClass('imgEffect') || $t.hasClass('mainFullArea')) {
+                $t.addClass($class[1]);
+            }
+        } else {
+            $t.children($class[0]).length
+                ? $t.children($class[0]).removeClass($class[1])
+                : $t.removeClass($class[1]);
+        }
+    });
+}
+
+$.fn.addScrollFixed = function(v) {
+    return this.each(function() {
+        var $win = $(window),
+            $wT = $win.scrollTop(); // window 스크롤값
+            $wH = $win.height(), // window 높이(브라우저 화면)
+
+            $t = $(this),
+            $tH = $t.innerHeight(), // this 높이값
+            $tT = $t.positionInfo(), // this 옵셋탑
+
+            $fixed = $t.find('.ui-fixed-target'), // 고정시킬 타겟
+            $fixedH = $fixed.innerHeight(), // 고정될 타겟 높이값
+
+            $pos = parseInt($wH * v / 100), // 타겟이 브라우저 위치(%)에 왔을 경우( 50%는 몇픽셀? )
+            $class = ['active']; // class 활용 가능
+
+        if($fixed.length) {
+            $t.css({'position': 'relative'}); // position 을 사용하기 때문에 속성 필요
+
+            if($wT+$pos > $tT) { // 스크롤값 + 매개변수로 계산된 위치값 > this 옵셋탑
+                $t.addClass($class[0]);
+                $fixed.css({ 'position': 'fixed', 'top': $pos + 'px' });
+
+                if($fixed.positionInfo() + $fixedH >= $tT + $tH) {
+                    $t.removeClass($class[0]);
+                    $fixed.css({ 'position': 'absolute', 'top': $tH - $fixedH + 'px' });
+                }
+            } else {
+                $t.removeClass($class[0]);
+                $fixed.css({ 'position': 'absolute', 'top': 'auto' });
+            }
+            
+            // console.log('브라우저 높이 : ' + $wH, ' | 스크롤 탑 : ' + $wT, ' | 대상 옵셋탑 : ' + $tT,  ' | 부모영역 높이 : ' + $tH)
+        }
+    });
+}
+
+$(document).on('scroll', function() {
+    // $('.myFixed1').addScrollFixed(50);
+    // $('.myFixed2').addScrollFixed(60);
+});
+
+
+    /*
+        화면이 스크롤되다가 ([1]특정 위치)가 되면 ([2]fixed 되어야 하는 대상)에 ([3]position: fixed; top: 000px) 을 준다.
+        fixed 대상은 고정되고 나머지 컨텐츠는 스크롤된다.
+        ([4]다시 특정 위치)가 되면 ([2]fixed 대상)은 ([5]position: absolute; top: 000px) 값을 갖고 스크롤에 따라 움직인다.
+
+        [1] - fixed 대상의 부모의 offset().top 이 $(window).height()의 어떤 지점에 도달한 경우, 여기서 어떤은 수치화해야 함.
+        [2] - jquery selector
+        [3] - top값은 offset().top - $(window).scrollTop() 
+        [4] - fixed 대상의 부모의 다음 컨텐츠가 화면에 등장할때 -> $(window).height() + $(window).scrollTop() > 다음 컨텐츠의 offset().top 보다 클떄
+        [5] - top값은 ???
+    */
+        
+</script>
+
+</body>
+</html>
