@@ -5,9 +5,9 @@
         urlStr2 = url.indexOf('/projects/index');
     (function() {
       if (urlStr !== -1 && urlStr2 === -1) {
-        $('#headerLinks').append('<a href="/pc/projects/index.html?preload=0" class="prev_btn"><img src="/pc/resources/images/common/pc_btn_back.svg" alt="previous page" /></a>');
+        $('#headerLinks').append('<a href="../../pc/projects/index.html?preload=0" class="prev_btn"><img src="../../pc/resources/images/common/pc_btn_back.svg" alt="previous page" /></a>');
       } else {
-        $('#headerLinks').append('<div><a href="/pc/main/index.html" class="logo"><img src="/pc/resources/images/common/pc_logo_01.svg" alt="netivered" /></a></div>');
+        $('#headerLinks').append('<div><a href="../../pc/main/index.html" class="logo"><img src="../../pc/resources/images/common/pc_logo_01.svg" alt="netivered" /></a></div>');
       }
       var urlFlag = url.indexOf('pc/main');
 		  if(urlFlag > -1) {
@@ -26,24 +26,24 @@
     <div id="nav_menu">
       <ul>
         <li>
-          <a href="/pc/companyinfo/index.html" class="dashed_wrap">
-            <span><img src="/pc/resources/images/common/pc_ico_b_navi01.svg" alt="about" /><div class="dash active"></div></span>
+          <a href="../../pc/companyinfo/index.html" class="dashed_wrap">
+            <span><img src="../../pc/resources/images/common/pc_ico_b_navi01.svg" alt="about" /><div class="dash active"></div></span>
           </a>
         </li>
         <li>
-          <a href="/pc/projects/index.html" class="dashed_wrap">
-            <span><img src="/pc/resources/images/common/pc_ico_b_navi02.svg" alt="works" /><div class="dash active"></div></span>
+          <a href="../../pc/projects/index.html" class="dashed_wrap">
+            <span><img src="../../pc/resources/images/common/pc_ico_b_navi02.svg" alt="works" /><div class="dash active"></div></span>
           </a>
         </li>
         <li>
-          <a href="/pc/contact/index.html">
-            <span><img src="/pc/resources/images/common/pc_ico_b_navi03.svg" alt="contact" /></span>
+          <a href="../../pc/contact/index.html">
+            <span><img src="../../pc/resources/images/common/pc_ico_b_navi03.svg" alt="contact" /></span>
           </a>
         </li>
       </ul>
       <div class="bottom_logo">
         <div class="dash"></div>
-        <img src="/pc/resources/images/common/pc_ico_sline_main.svg" alt="WE ARE UX CONSULTANCY" />
+        <img src="../../pc/resources/images/common/pc_ico_sline_main.svg" alt="WE ARE UX CONSULTANCY" />
       </div>
     </div>
   </nav>
@@ -57,7 +57,7 @@
         t.removeClass('active');
 
         if (urlStr !== -1 && urlStr2 === -1) {
-          $('#headerLinks').html('').append('<a href="/pc/projects/index.html?preload=0" class="prev_btn"><img src="/pc/resources/images/common/pc_btn_back.svg" alt="previous page" /></a>');
+          $('#headerLinks').html('').append('<a href="../../pc/projects/index.html?preload=0" class="prev_btn"><img src="../../pc/resources/images/common/pc_btn_back.svg" alt="previous page" /></a>');
         }
 
       } else {
@@ -66,7 +66,7 @@
         $('#nav_menu .bottom_logo .dash').addClass('active');
         
         if (urlStr !== -1 && urlStr2 === -1) {
-          $('#headerLinks').html('').append('<div><a href="/pc/main/index.html" class="logo"><img src="/pc/resources/images/common/pc_logo_01.svg" alt="netivered" /></a></div>');
+          $('#headerLinks').html('').append('<div><a href="../../pc/main/index.html" class="logo"><img src="../../pc/resources/images/common/pc_logo_01.svg" alt="netivered" /></a></div>');
         }
       }
     });
