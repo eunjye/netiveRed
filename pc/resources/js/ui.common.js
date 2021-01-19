@@ -237,6 +237,7 @@ var loader = {
 					$('.imgEffect').addActive(); // image effect
 					$('.mainFullArea').addActive(); // image effect
 					$('.process_wrap .dash').addActive(); // about page
+					$('.onFrame').addActive(); // in browser area
 				}).trigger('scroll');
 
 	},

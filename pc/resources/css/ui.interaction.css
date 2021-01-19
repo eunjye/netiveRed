@@ -182,6 +182,10 @@ svg#figure5 {width: 100%; height: auto; }
 #projectDetail .cover_txt .dashed_wrap .dash:nth-of-type(2) {top: 85%;left: 16%;width: 17%;}
 #projectDetail .dash:before { height: 0.52vw;}
 
+/* troaming */
+#projectPage .worklist .troaming .dashed_wrap .dash:nth-of-type(1) {top:5%; left:6%;width: 17%;}
+#projectPage .worklist .troaming .dashed_wrap .dash:nth-of-type(2) {top: 24%;left:25%;width: 17%;}
+
 /* scroll effect - 화면에 보이기 전까지 안보이다가, 화면에 노출될때 움직이며 노출됨 */
 .scrollEffect { opacity: 0; }
 .scrollEffect.active {
@@ -256,6 +260,11 @@ svg#figure5 {width: 100%; height: auto; }
 }
 #projectDetail .parallax .stuff .dashed_wrap .dash{top: 14%;left: 19.4%;width: 9.4%;}
 #projectDetail .parallax .stuff .dashed_wrap .dash:last-child{top: 81%;left: 5.7%;width: 5.7%;}
+
+/* T roaming */
+#projectDetail.troaming .parallax .stuff .dashed_wrap .dash{top: 10%;left:3.1%;width: 9.4%;}
+#projectDetail.troaming .parallax .stuff .dashed_wrap .dash:last-child{top:48%;left:13.5%;width:9.7%;}
+#projectDetail.troaming .work_title .desc {margin-top:2.4vw;}
 
 
 /*** header ***/

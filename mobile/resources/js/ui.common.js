@@ -199,6 +199,7 @@ var loader = {
 					$('[class^=figure]').addActive(); // object animation
 					$('.imgEffect').addActive(); // image effect
 					$('.mainFullArea').addActive(); // image effect
+					$('.onFrame').addActive(); // in browser area
 				}).trigger('scroll');
 
 	},
