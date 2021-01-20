@@ -135,7 +135,12 @@ nav #nav_menu li a:hover .dash.active:before,
 nav #nav_menu li a:focus .dash.active:before{background-color:#ff3d32;}
 nav #nav_menu li {text-align: right;margin-bottom: 1.04vw;}
 nav #nav_menu li.bottom_logo{margin-bottom: 0;}
-nav #nav_menu li a img{width: 25.21vw;height: auto;}
+nav #nav_menu li a img{display:block; width: 25.21vw;height: auto;}
+nav #nav_menu li a img.on{display:none;}
+nav #nav_menu li a:hover img,
+nav #nav_menu li a:focus img{display:none;}
+nav #nav_menu li a:hover img.on,
+nav #nav_menu li a:focus img.on{display:block;}
 nav #nav_menu li:nth-child(3) {margin-bottom: 0;}
 
 /*** section ***/

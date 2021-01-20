@@ -27,17 +27,28 @@
       <ul>
         <li>
           <a href="../../pc/companyinfo/index.html" class="dashed_wrap">
-            <span><img src="../../pc/resources/images/common/pc_ico_b_navi01.svg" alt="about" /><div class="dash active"></div></span>
+            <span>
+              <img src="../../pc/resources/images/common/pc_ico_b_navi01.svg" alt="about" />
+              <img src="../../pc/resources/images/common/pc_ico_b_navi01_on.svg" alt="about" class="on" />
+              <div class="dash active"></div>
+            </span>
           </a>
         </li>
         <li>
           <a href="../../pc/projects/index.html" class="dashed_wrap">
-            <span><img src="../../pc/resources/images/common/pc_ico_b_navi02.svg" alt="works" /><div class="dash active"></div></span>
+            <span>
+              <img src="../../pc/resources/images/common/pc_ico_b_navi02.svg" alt="works" />
+              <img src="../../pc/resources/images/common/pc_ico_b_navi02_on.svg" alt="works" class="on" />
+              <div class="dash active"></div>
+            </span>
           </a>
         </li>
         <li>
           <a href="../../pc/contact/index.html">
-            <span><img src="../../pc/resources/images/common/pc_ico_b_navi03.svg" alt="contact" /></span>
+            <span>
+              <img src="../../pc/resources/images/common/pc_ico_b_navi03.svg" alt="contact" />
+              <img src="../../pc/resources/images/common/pc_ico_b_navi03_on.svg" alt="contact" class="on" />
+            </span>
           </a>
         </li>
       </ul>
@@ -72,21 +83,21 @@
     });
 
     //hover event
-    $('#nav_menu a').on('mouseout focusout', function() {
-      var img = $(this).find('img').eq(0),
-          imgSrc = img.attr('src');
-      if(imgSrc.indexOf('_on') !== -1 && !$(this).is(":focus")) {
-        img.attr('src', imgSrc.replace('_on.', '.'));
-      }
-    })
+    // $('#nav_menu a').on('mouseout focusout', function() {
+    //   var img = $(this).find('img').eq(0),
+    //       imgSrc = img.attr('src');
+    //   if(imgSrc.indexOf('_on') !== -1 && !$(this).is(":focus")) {
+    //     img.attr('src', imgSrc.replace('_on.', '.'));
+    //   }
+    // })
 
-    $('#nav_menu a').on('mouseover focus', function() {
-      var img = $(this).find('img').eq(0),
-          imgSrc = img.attr('src');
-      if(imgSrc.indexOf('_on') === -1) {
-        img.attr('src', imgSrc.replace('.', '_on.'));
-      }
-    })
+    // $('#nav_menu a').on('mouseover focus', function() {
+    //   var img = $(this).find('img').eq(0),
+    //       imgSrc = img.attr('src');
+    //   if(imgSrc.indexOf('_on') === -1) {
+    //     img.attr('src', imgSrc.replace('.', '_on.'));
+    //   }
+    // })
 
   });
 </script>
