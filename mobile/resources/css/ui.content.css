@@ -143,12 +143,28 @@
 #projectDetail .project_content ul > li:last-child{margin-bottom: 0;}
 #projectDetail .project_content ul > li p{margin: 0; font-family: Roboto, 'Noto Sans KR'; text-transform: uppercase;}
 #projectDetail .project_description { padding: 0 1.875rem; }
+#projectDetail .project_description .has_bg{background-color:#E3E8FF; background-position:center center; background-size:cover; color:#fff; margin-left:-1.875rem; margin-right:-1.875rem; padding:25vw 1.875rem;}
+#projectDetail .project_description .has_bg .has_bg_img {background:#fff; padding-bottom:20.83vw; margin-top:2.8vw; margin-bottom:0;}
+#projectDetail .project_description .has_bg .has_bg_img + .fullpicture {margin-top:0;}
+#projectDetail .project_description .has_bg .fullpicture:last-child,
+#projectDetail .project_description .has_bg .picture:last-child {margin-bottom:-25vw;}
+#projectDetail .project_description .has_bg.type_dark {background-color:#4650EE;}
+#projectDetail .project_description .has_bg.type_dark > dt {color:#fff;}
+#projectDetail .project_description .has_bg.type_dark p {color:#fff; font-weight:400; text-shadow:0 0 0.2vw rgba(0,0,0,.8);}
 #projectDetail .project_description > dl { margin-top: 23.61vw; }
 #projectDetail .project_description > dl:nth-of-type(1) { margin-top: 0; }
-#projectDetail .project_description > dl > dt { color: #000; font-family: 'Roboto'; font-size: 5vw; font-weight: 700; line-height: 1; text-transform: uppercase; }
+#projectDetail .project_description > dl > dt { color: #000; font-size: 5vw; font-weight: 700; line-height: 1; text-transform: uppercase; line-height:7.5vw;}
+#projectDetail .project_description > dl > dt.highlight {margin-bottom:14.86vw;}
+#projectDetail .project_description > dl > dt.highlight span {z-index:0; position:relative; font-size:6.11vw; font-weight:700; line-height:9.2vw;}
+#projectDetail .project_description > dl > dt.highlight span:before {z-index:-1; position:absolute; bottom:-0.25vw; left:0; right:100%; height:3.61vw; display:inline-block; background:#D3DBFF; opacity:0; transition:all ease-in-out 1s; content:"";}
+#projectDetail .project_description > dl > dt.highlight.active span:before {right:-4px; opacity:1;}
+#projectDetail .project_description > dl.has_bg > dt.highlight span:before { background:#BBC7FF;}
+#projectDetail .project_description > dl.type_dark > dt.highlight span:before {background:#4BA1F9;}
 #projectDetail .project_description > dl > dd { margin-top: 13.06vw; }
 #projectDetail .project_description > dl > dd:nth-of-type(1) { margin-top: 7.22vw; }
-#projectDetail .project_description p { color: #000; font-family: 'Noto Sans KR'; font-weight: 400; font-size: 4.17vw; letter-spacing: -0.28vw; text-align: justify; }
+#projectDetail .project_description p { color: #000; font-family: 'Noto Sans KR'; font-weight: 400; font-size: 4.17vw; letter-spacing: -0.2vw; text-align: justify; }
+#projectDetail .project_description .headline_area {display:block; opacity:0; transform:translateY(-0.5vw); font-size:11.66vw; line-height:14.5vw; transition:all ease-in-out .6s .2s; text-transform:uppercase; font-weight:700; text-align:center; margin:33.05vw 0 6.66vw; text-shadow:0 0 1vw rgba(0,0,0,.3); letter-spacing:0.4vw;}
+#projectDetail .project_description .headline_area.active {opacity:1; transform:translateY(0);}
 #projectDetail .project_description > dl > dd .picture { margin: 13.89vw -1.875rem 0; }
 #projectDetail .project_description > dl > dd .picture img { width: 100%; vertical-align: top; }
 
@@ -163,6 +179,11 @@
 #projectDetail .project_maker > dl { margin-top: 11.11vw; color: #000; font-family: 'Roboto'; text-transform: uppercase; line-height: 1; }
 #projectDetail .project_maker > dl dt { margin-top: 6.11vw; font-size: 4.17vw; font-weight: 500; }
 #projectDetail .project_maker > dl dd { margin-top: 2.50vw; font-size: 3.89vw; font-weight: 300; }
+
+/* troaming */
+#projectDetail.troaming section {background:#fff;}
+#projectDetail.troaming + #footer {background:#fff;}
+#projectDetail.troaming .project_description > dl > dd .picture {margin-top:25vw;}
 
 /*** contact page ***/
 main#contactPage,

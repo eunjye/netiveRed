@@ -271,7 +271,7 @@ svg#figure5 { width: 100%; height: auto; }
   margin-top: 123vw;
   padding-left: 1.875rem;
 }
-#projectDetail .parallax .stuff .dashed_wrap { width: 68.88vw; }
+#projectDetail .parallax .stuff .dashed_wrap { width: 71.39vw; }
 #projectDetail .parallax .stuff img { width: 100%; }
 #projectDetail .project_content .project_wrap:nth-child(1):before{margin-top: 0;}
 #projectDetail .project_content .project_wrap:nth-child(1):before,
@@ -284,6 +284,11 @@ svg#figure5 { width: 100%; height: auto; }
 }
 #projectDetail .parallax .stuff .dashed_wrap .dash{top: 8%;left: 60%;width: 28%;}
 #projectDetail .parallax .stuff .dashed_wrap .dash:last-child{top: 84%;left: 16%;width: 18%;}
+
+/* variable title */
+.project_title span {display:flex; align-items:center; justify-content:space-between;}
+.project_title span i {display:inline-block; flex:1 1 auto; text-align:center; vertical-align:middle; font-size:9.02vw; font-weight:900; line-height:11vw;}
+.project_title span .txt-dash {height:1.25vw; margin:0 2px; background:#000;}
 
 /*** header ***/
 #nav_menu .dash_1 .dash {top: 46%;left: 17%;width: 22%;}

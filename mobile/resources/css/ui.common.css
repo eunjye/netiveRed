@@ -60,6 +60,8 @@ main .main_content{flex:1;}
 .po_area {position: relative;}
 .bottom_logo {position: absolute;left: 8.3vw;bottom: 8.3vw;width: 29.7vw;height: auto;line-height: 0;}
 .bottom_logo > img {width: 100%;height: auto; vertical-align: top;}
+.tac {text-align:center !important;}
+.fw_l {font-weight:300 !important;}
 
 /*** header ***/
 header {position: absolute;top: 0;z-index: 999;width: 100%;height: 1px;}
