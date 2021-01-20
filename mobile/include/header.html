@@ -1,8 +1,8 @@
 <div class="header_wrap">
   <script>
     var url = document.location.href,
-    urlStr = url.indexOf('/projects/'),
-    urlStr2 = url.indexOf('/projects/index');
+    urlStr = url.indexOf('../../projects/'),
+    urlStr2 = url.indexOf('../../projects/index');
     (function() {
       if (urlStr !== -1 && urlStr2 === -1) {
         $('#headerLinks').append('<a href="../../mobile/projects/index.html?preload=0" class="prev_btn"><span>프로젝트 목록</span></a>');

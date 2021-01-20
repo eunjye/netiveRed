@@ -218,7 +218,7 @@
 #projectDetail .project_bottom .prj_tit{ color: #000; font-family: 'Roboto'; font-size: 1.46vw; font-weight: 700; line-height: 1; text-transform: uppercase; }
 
 .btnTop { position: relative; }
-.btnTop a { position: absolute; right: 8.33vw; bottom: -5.83vw; width: 2.19vw; height: 1.30vw; background: url('/pc/resources/images/common/pc_icon_back to top.png') no-repeat; background-size: 100%; }
+.btnTop a { position: absolute; right: 8.33vw; bottom: -5.83vw; width: 2.19vw; height: 1.30vw; background: url('../../../pc/resources/images/common/pc_icon_back to top.png') no-repeat; background-size: 100%; }
 .btnTop a span { font-size: 0; line-height: 0; }
 
 /*** contact page ***/
