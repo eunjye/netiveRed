@@ -288,7 +288,10 @@ svg#figure5 { width: 100%; height: auto; }
 /* variable title */
 .project_title span {display:flex; align-items:center; justify-content:space-between;}
 .project_title span i {display:inline-block; flex:1 1 auto; text-align:center; vertical-align:middle; font-size:9.02vw; font-weight:900; line-height:11vw;}
-.project_title span .txt-dash {height:1.25vw; margin:0 2px; background:#000;}
+.project_title span .txt_dash {position:relative; height:1.25vw; margin:0 2px;}
+.project_title span .txt_dash:before {position:absolute; top:0; left:0; height:100%; display:block; background:#000; content:"";}
+.project_title span .txt_dash.active:before {width:100%; animation-name: cssAnimation;
+  animation-duration: 0.7s; animation-timing-function: cubic-bezier(0, 0, 0.4, 0.99); animation-fill-mode: both;}
 
 /*** header ***/
 #nav_menu .dash_1 .dash {top: 46%;left: 17%;width: 22%;}
