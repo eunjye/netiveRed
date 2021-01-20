@@ -227,13 +227,13 @@ var loader = {
 
 $(document).ready(function() {
 	$.ajax({
-		url: "/mobile/include/header.html"
+		url: "../../mobile/include/header.html"
 	}).done(function(html) {
 		$('header#header').append(html);
 	});
 
 	$.ajax({
-		url: "/mobile/include/footer.html"
+		url: "../../mobile/include/footer.html"
 	}).done(function(html) {
 		$('footer#footer').append(html);
 	});

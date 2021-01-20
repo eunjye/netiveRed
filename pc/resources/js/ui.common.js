@@ -265,13 +265,13 @@ var loader = {
 
 $(document).ready(function() {
 	$.ajax({
-		url: "/pc/include/header.html"
+		url: "../../pc/include/header.html"
 	}).done(function(html) {
 		$('header#header').append(html);
 	});
 
 	$.ajax({
-		url: "/pc/include/footer.html"
+		url: "../../pc/include/footer.html"
 	}).done(function(html) {
 		$('footer#footer').append(html);
 	});
