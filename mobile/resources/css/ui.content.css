@@ -163,7 +163,7 @@
 #projectDetail .project_description > dl > dd { margin-top: 13.06vw; }
 #projectDetail .project_description > dl > dd:nth-of-type(1) { margin-top: 7.22vw; }
 #projectDetail .project_description p { color: #000; font-family: 'Noto Sans KR'; font-weight: 400; font-size: 4.17vw; letter-spacing: -0.2vw; text-align: justify; }
-#projectDetail .project_description .headline_area {display:block; opacity:0; transform:translateY(-0.5vw); font-size:11.66vw; line-height:14.5vw; transition:all ease-in-out .6s .2s; text-transform:uppercase; font-weight:700; text-align:center; margin:33.05vw 0 6.66vw; text-shadow:0 0 1vw rgba(0,0,0,.3); letter-spacing:0.4vw;}
+#projectDetail .project_description .headline_area {display:block; opacity:0; transform:translateY(-0.5vw); font-size:11.66vw; line-height:14.5vw; transition:all ease-in-out .6s .2s; text-transform:uppercase; font-weight:700; text-align:center; margin:33.05vw 0 6.66vw; letter-spacing:0.4vw;}
 #projectDetail .project_description .headline_area.active {opacity:1; transform:translateY(0);}
 #projectDetail .project_description > dl > dd .picture { margin: 13.89vw -1.875rem 0; }
 #projectDetail .project_description > dl > dd .picture img { width: 100%; vertical-align: top; }
