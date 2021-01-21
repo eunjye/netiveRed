@@ -148,15 +148,15 @@
 #projectDetail .project_description .has_bg .has_bg_img + .fullpicture {margin-top:0;}
 #projectDetail .project_description .has_bg .fullpicture:last-child,
 #projectDetail .project_description .has_bg .picture:last-child {margin-bottom:-25vw;}
-#projectDetail .project_description .has_bg.type_dark {background-color:#4650EE;}
+#projectDetail .project_description .has_bg.type_dark {padding-top:19.44vw; padding-bottom:51.39vw; background-color:#4650EE;}
 #projectDetail .project_description .has_bg.type_dark > dt {color:#fff;}
-#projectDetail .project_description .has_bg.type_dark p {color:#fff; font-weight:400; text-shadow:0 0 0.2vw rgba(0,0,0,.8);}
+#projectDetail .project_description .has_bg.type_dark p {color:#fff; font-weight:400;}
 #projectDetail .project_description > dl { margin-top: 23.61vw; }
 #projectDetail .project_description > dl:nth-of-type(1) { margin-top: 0; }
 #projectDetail .project_description > dl > dt { color: #000; font-size: 5vw; font-weight: 700; line-height: 1; text-transform: uppercase; line-height:7.5vw;}
 #projectDetail .project_description > dl > dt.highlight {margin-bottom:14.86vw;}
 #projectDetail .project_description > dl > dt.highlight span {z-index:0; position:relative; font-size:6.11vw; font-weight:700; line-height:9.2vw;}
-#projectDetail .project_description > dl > dt.highlight span:before {z-index:-1; position:absolute; bottom:-0.25vw; left:0; right:100%; height:3.61vw; display:inline-block; background:#D3DBFF; opacity:0; transition:all ease-in-out 1s; content:"";}
+#projectDetail .project_description > dl > dt.highlight span:before {z-index:-1; position:absolute; bottom:-0.25vw; left:0; right:100%; height:3.61vw; display:inline-block; background:#D3DBFF; opacity:0; transition:all ease-in-out 1.5s; content:"";}
 #projectDetail .project_description > dl > dt.highlight.active span:before {right:-4px; opacity:1;}
 #projectDetail .project_description > dl.has_bg > dt.highlight span:before { background:#BBC7FF;}
 #projectDetail .project_description > dl.type_dark > dt.highlight span:before {background:#4BA1F9;}
@@ -184,6 +184,7 @@
 #projectDetail.troaming section {background:#fff;}
 #projectDetail.troaming + #footer {background:#fff;}
 #projectDetail.troaming .project_description > dl > dd .picture {margin-top:25vw;}
+#projectDetail.troaming .project_description > dl > dd .picture.mgt_s {margin-top:19.44vw;}
 
 /*** contact page ***/
 main#contactPage,

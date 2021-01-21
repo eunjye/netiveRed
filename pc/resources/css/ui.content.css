@@ -176,14 +176,14 @@
 #projectDetail.troaming + #footer {background:#fff;}
 
 #projectDetail .project_bottom{padding: 7.92vw 8.33vw 0;}
-#projectDetail .project_bottom .has_bg{background-color:#E3E8FF; background-position:center center; background-size:cover; color:#fff; margin:4.58vw -11.46vw 0; padding:8.6vw 11.46vw 17.6vw;}
+#projectDetail .project_bottom .has_bg{background-color:#E3E8FF; background-position:center center; background-size:cover; color:#fff; margin:4.58vw -11.46vw 0; padding:9.89vw 11.46vw 17.6vw;}
 #projectDetail .project_bottom .has_bg .has_bg_img {background:#fff; padding-bottom:12.5vw; margin-top:2.8vw; margin-bottom:0;}
 #projectDetail .project_bottom .has_bg .has_bg_img + .fullpicture {margin-top:0;}
 #projectDetail .project_bottom .has_bg .fullpicture:last-child,
 #projectDetail .project_bottom .has_bg .picture:last-child {margin-bottom:-17.6vw;}
 #projectDetail .project_bottom .has_bg.type_dark {background-color:#4650EE;}
 #projectDetail .project_description .has_bg.type_dark > dt {color:#fff;}
-#projectDetail .project_description .has_bg.type_dark p {color:#fff; font-weight:400; text-shadow:0 0 0.2vw rgba(0,0,0,.8);}
+#projectDetail .project_description .has_bg.type_dark p {color:#fff; font-weight:400;}
 #projectDetail .project_description {padding: 0 3.13vw;}
 #projectDetail .project_description > dl {margin-top: 12.50vw;}
 #projectDetail .project_description > dl:nth-of-type(1) {margin-top: 0;}
