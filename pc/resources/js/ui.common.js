@@ -351,11 +351,12 @@ $(window).on('load', function() {
 
 	$(this).impulse({
 	 tempo: 350
-	})
-	.click(function() {
-
-	 awake = !awake;
-	 $(this).amend({keen: awake});
 	});
+	// [20210122/ejh] 클릭 시 smooth scroll 토글되는 효과 제거함
+	// .click(function() {
+
+	//  awake = !awake;
+	//  $(this).amend({keen: awake});
+	// });
 
 });

@@ -143,7 +143,7 @@
 #projectDetail .project_content ul > li:last-child{margin-bottom: 0;}
 #projectDetail .project_content ul > li p{margin: 0; font-family: Roboto, 'Noto Sans KR'; text-transform: uppercase;}
 #projectDetail .project_description { padding: 0 1.875rem; }
-#projectDetail .project_description .has_bg{background-color:#E3E8FF; background-position:center center; background-size:cover; color:#fff; margin-left:-1.875rem; margin-right:-1.875rem; padding:25vw 1.875rem;}
+#projectDetail .project_description .has_bg{background-color:#E3E8FF; background-position:center center; background-size:cover; color:#fff; margin-left:-1.875rem; margin-right:-1.875rem; padding:25vw 1.875rem; overflow:hidden;}
 #projectDetail .project_description .has_bg .has_bg_img {background:#fff; padding-bottom:20.83vw; margin-top:2.8vw; margin-bottom:0;}
 #projectDetail .project_description .has_bg .has_bg_img + .fullpicture {margin-top:0;}
 #projectDetail .project_description .has_bg .fullpicture:last-child,
