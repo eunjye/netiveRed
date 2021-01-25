@@ -344,19 +344,15 @@ $.fn.bgScrollFn = function() {
 	});
 }
 
-
 $(window).on('load', function() {
-	// $(this).impulse();
-	awake = true;
 
-	$(this).impulse({
-	 tempo: 350
-	});
-	// [20210122/ejh] 클릭 시 smooth scroll 토글되는 효과 제거함
-	// .click(function() {
-
-	//  awake = !awake;
-	//  $(this).amend({keen: awake});
-	// });
+	var OsNo = navigator.userAgent.toLowerCase(),
+		 os = {
+				Mac: /mac/.test(OsNo),
+				Windows: /win/.test(OsNo)
+		 }
+	if (os.Windows) {
+		 $(this).impulse();
+	}
 
 });
